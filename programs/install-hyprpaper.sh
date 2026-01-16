@@ -1,5 +1,4 @@
-
 #!/bin/sh
 
-yay -S --noconfirm --needed hyprpaper
+paru -S --noconfirm --needed hyprpaper
 
