@@ -1,4 +1,4 @@
 #!/bin/sh
 
-yay -S --noconfirm --needed hyprlock
+paru -S --noconfirm --needed hyprlock
 
