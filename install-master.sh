@@ -49,5 +49,5 @@ paru -Syu
 #-------------------------------#
 ./programs/install-vpn.sh
 
-cp -r ./dotfiles/hypr ~/.config/
+cp -r ./dotfiles/.config ~/
 
