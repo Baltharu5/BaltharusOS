@@ -27,3 +27,4 @@
 ./programs/install-vpn.sh
 
 cp -r ./dotfiles/hypr ~/.config/
+cp -a ./other/. ~/
