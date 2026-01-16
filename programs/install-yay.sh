@@ -1,5 +1,5 @@
 #!/bin/sh
 
-sudo pacman -S --noconfirm --needed yay
+sudo pacman -S --noconfirm --needed yay hyprland hyprlock hyprlauncher
 
 
