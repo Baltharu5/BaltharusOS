@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
-yay -S --noconfirm --needed hyprutils
+paru -S --noconfirm --needed hyprutils
