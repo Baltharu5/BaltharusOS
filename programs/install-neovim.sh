@@ -1,4 +1,4 @@
 #!/bin/sh
 
-yay -S --noconfirm --needed neovim
+paru -S --noconfirm --needed neovim
 
