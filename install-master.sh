@@ -1,29 +1,52 @@
-#1/bin/sh
+#!/bin/sh
 
-# AUR Package Manager
+#-------------------------------#
+# AUR Package Manager		#
+#-------------------------------#
 ./programs/install-yay.sh
 
+#-------------------------------#
 # Editor of Choice
+#-------------------------------#
 ./programs/install-neovim.sh
 
-# Waybar
+#-------------------------------#
+# Waybar			#
+#-------------------------------#
 ./programs/install-waybar.sh
 
-# Hypr Ecosystem
-#	Window Manager
+#-------------------------------#
+# Hypr Ecosystem		#
+#-------------------------------#
+
+#-------------------------------#
+#	Window Manager		#
+#-------------------------------#
 ./programs/install-hyprland.sh
-#	Lock Screen
+#-------------------------------#
+#	Lock Screen		#
+#-------------------------------#
 ./programs/install-hyprlock.sh
-#	Utilities support
+#-------------------------------#
+#	Utilities support	#
+#-------------------------------#
 ./programs/install-hyprutils.sh
-#	Background Manager
+#-------------------------------#
+#	Background Manager	#
+#-------------------------------#
 ./programs/install-hyprpaper.sh
-# 	Program Luancher
+#-------------------------------#
+# 	Program Luancher	#
+#-------------------------------#
 ./programs/install-hyprlauncher.sh
-#	Idle Detector
+#-------------------------------#
+#	Idle Detector		#
+#-------------------------------#
 ./programs/install-hypridle.sh
 
-# Install OpenFortiVPN and FreeRDP
+#-------------------------------#
+# OpenFortiVPN and FreeRDP	#
+#-------------------------------#
 ./programs/install-vpn.sh
 
 cp -r ./dotfiles/hypr ~/.config/
