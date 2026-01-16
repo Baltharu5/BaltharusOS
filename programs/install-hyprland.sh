@@ -1,4 +1,4 @@
 #!/bin/sh
 
-yay -S --noconfirm --needed hyprland
+paru -S --noconfirm --needed hyprland
 
