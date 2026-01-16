@@ -1,5 +1,5 @@
 #!/bin/sh
 
-yay -S --noconfirm --needed hypridle
+paru -S --noconfirm --needed hypridle
 
 
