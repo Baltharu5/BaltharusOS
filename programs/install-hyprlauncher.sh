@@ -1,4 +1,4 @@
 #!/bin/sh
 
-yay -S --noconfirm --needed hyprlauncher
+paru -S --noconfirm --needed hyprlauncher
 
