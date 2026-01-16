@@ -2,10 +2,8 @@
 
 sudo pacman -Syu
 
-#-------------------------------#
-# AUR Package Manager		#
-#-------------------------------#
-./programs/install-yay.sh
+paru -Syu
+
 
 #-------------------------------#
 # Editor of Choice
@@ -13,7 +11,7 @@ sudo pacman -Syu
 ./programs/install-neovim.sh
 
 #-------------------------------#
-# Waybar			#
+# Waybar  	#
 #-------------------------------#
 ./programs/install-waybar.sh
 
